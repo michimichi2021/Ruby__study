@@ -62,4 +62,10 @@ words.each do |n|
 end
 puts total
 
+#改行しなくてもブロックは動作する
+characters = [1,2,3,4]
+character = 0
+
+characters.each {|n| character += n}
+puts character
 
